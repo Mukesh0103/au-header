@@ -1,0 +1,85 @@
+.header-section{
+    padding: 1em 1em 0 1em;
+    height: 50px;
+}
+.header-list{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.header-list li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 7px;
+}
+.fa-bars{
+    font-size: 20px !important;
+    cursor: pointer;
+}
+.full{
+    letter-spacing: 3px;
+    font-weight: 700 !important;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.u-icon a{
+    font-weight: 700 !important;
+    font-size: 19px;
+    background: #fdad35;
+    color: #fff !important;
+    padding: 3px 7px 3px 7px;
+    text-decoration: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-icon img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.profile-icon a{
+    text-decoration: none !important;
+    color: #cacaca !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+.profile-icon{
+    padding: 0 13px 0 0;
+}
+.profile-icon i{
+    padding: 0px 0 0 7px;
+}
+.header-right{
+    float: right;
+}
+.profile{
+    padding: 0;
+    position: relative;
+    margin: 0 25px 0 0;
+}
+.down-arrow{
+    position: absolute;
+    top: 38px;
+    right: 36px;
+}
+.search-icon{
+    position: relative;
+}
+.search-icon i{
+    position: absolute;
+    top: -7px;
+    right: 0px;
+    padding: 0px 30px 0 0px;
+    cursor: pointer;
+}
+.header-list .flaticon-down-arrow::before{
+    font-size: 10px !important;
+    font-weight: 900;
+}
+.header-list .flaticon-loupe::before{
+    font-size: 15px !important;
+    font-weight: 900;
+}
+.header-list .flaticon-menu::before{
+    font-size: 15px !important;
+    font-weight: 900;
+}
