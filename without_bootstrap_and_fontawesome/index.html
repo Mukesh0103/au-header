@@ -2,33 +2,29 @@
 <html>
 
 <head>
-    <title>header</title>
-<link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./icons/flaticon.css">
+    <title>Without using bootstrap and fontawesome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./images/flaticon.css">
 </head>
 
 <body>
-    <div class="header-section">
-        <ul class="header-list">
-            <li><i class="flaticon-menu"></i></li>
-            <li class="u-icon"><a href="#">G</a></li>
-            <li class="full">GOOGLE
+    <header class="company-header">
+        <a class="menu-icon"><i class="flaticon-menu"></i></a>
+        <a class="company-logo">G</a>
+        <span class="company-name">GOOGLE</span>
+        <ul class="header-contents">
+            <li class="search-icon"><i class="flaticon-loupe"></i></li>
+            <li class="user-profile">
+                <div class="profile-dropdown">
+                    <figure class="profile-image">
+                        <img src="./images/profile.jpg">
+                    </figure>
+                    <span class="dropdown-arrow"><i class="flaticon-down-arrow"></i></span>
+                </div>
             </li>
         </ul>
-        <div class="header-right">
-            <ul class="header-list">
-                <li class="search-icon"><i class="flaticon-loupe"></i></li>
-                <li class="profile-icon">
-                    <figure class="profile">
-                        <img src="./Images/profile.jpg" class="rounded-circle">
-                    </figure>
-                    <span class="down-arrow">
-                        <i class="flaticon-down-arrow"></i></span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <hr>
+    </header>
 </body>
 
 </html>
