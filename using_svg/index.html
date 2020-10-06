@@ -3,31 +3,27 @@
 
 <head>
     <title>header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="header-section">
-        <ul class="header-list">
-            <li><img src="./svg/menu.svg" class="menu-icon"></li>
-            <li class="u-icon"><a href="#">G</a></li>
-            <li class="full">GOOGLE
+    <header class="company-header">
+        <a><img src="./svg/menu.svg" class="menu-icon"></a>
+        <a class="company-logo">G</a>
+        <span class="company-name">GOOGLE</span>
+        <ul class="header-contents">
+            <li><a><img src="./svg/loupe.svg" class="search-icon"></a></li>
+            <li class="user-profile">
+                <div class="profile-dropdown">
+                    <figure class="profile-image">
+                        <img src="./images/profile.jpg">
+                    </figure>
+                    <span class="dropdown-arrow"><img src="./svg/down-arrow.svg"></span>
+                </div>
             </li>
         </ul>
-        <div class="header-right">
-            <ul class="header-list">
-                <li class="search-icon"><img src="./svg/loupe.svg" class="search-icon"></li>
-                <li class="profile-icon">
-                    <figure class="profile"> 
-                        <img src="./Images/profile.jpg">
-                    </figure>
-                    <span class="down-arrow">
-                        <img src="./svg/down-arrow.svg" class="down-icon"></span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <hr>
+    </header>
 </body>
 
 </html>
