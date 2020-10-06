@@ -7,7 +7,11 @@ body{
 .header-section{
     padding: 24px;
     border-bottom: 1px solid #cacaca;
-    position: relative;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 .menu-icon{
     height: 15px;
@@ -70,4 +74,18 @@ body{
     position: absolute;
     top: 34px;
     right: 24px;
+}
+.content-section{
+    height: 600px;
+    width: 80%;
+    margin: 84px auto 0 auto;
+}
+.content-section .sections{
+    display: flex;
+}
+.content-section .sections .card{
+    height: 200px;
+    width: 250px;
+    border: 2px solid #cacaca;
+    margin: 15px auto 0px auto;
 }
